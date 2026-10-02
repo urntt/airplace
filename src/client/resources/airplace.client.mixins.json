@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.urntt.airplace.mixin",
+	"compatibilityLevel": "JAVA_${java_version}",
+	"client": [
+		"MinecraftMixin",
+		"MouseHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

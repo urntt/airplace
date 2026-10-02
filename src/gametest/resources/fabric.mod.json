@@ -1,0 +1,17 @@
+{
+	"schemaVersion": 1,
+	"id": "airplace-gametest",
+	"version": "0.0.0",
+	"name": "airplace game tests",
+	"environment": "client",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"com.urntt.airplace.gametest.AirPlaceLogicGameTest",
+			"com.urntt.airplace.gametest.AirPlaceClientGameTest",
+			"com.urntt.airplace.gametest.AirPlaceMultiplayerGameTest"
+		]
+	},
+	"depends": {
+		"airplace": "*"
+	}
+}

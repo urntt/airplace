@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "airplace",
+	"version": "${version}",
+	"name": "airplace",
+	"description": "Lets the local player place blocks in mid-air.",
+	"authors": [
+		"urntt"
+	],
+	"contact": {
+		"homepage": "https://github.com/urntt/airplace",
+		"sources": "https://github.com/urntt/airplace",
+		"issues": "https://github.com/urntt/airplace/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/airplace/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.urntt.airplace.AirPlaceClient"
+		],
+		"modmenu": [
+			"com.urntt.airplace.compat.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		{
+			"config": "airplace.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=${java_version}",
+		"fabric-api": ">=${fabric_api_version}"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

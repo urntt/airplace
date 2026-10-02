@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.0.0+26.3] - 2026-10-02
+
 ### Added
 
 - Place blocks in mid-air: while the Air Place Modifier key (`R` by default) is held, the block at the placement distance in front of the player is outlined, and the use key places the held block there. Vanilla handles the placement as if the player had clicked that block's face.
